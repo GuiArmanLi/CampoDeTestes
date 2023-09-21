@@ -1,0 +1,17 @@
+<h6>Input data</h6>
+<div *ngF="let pessoa of pessoas" [ngClass]="contentPessoa">
+    <div *ngIf="pessoa.sexo === 'Masculino'; else sexoFeminino" [ngStyle]="{color: color, 'background-color': backgroundColor, 'padding': padding, 'border': border}">
+        <div [ngClass]=contentCard>
+            <p>Nome: {{pessoa.nome}} </p>
+            <p>Idade: {{pessoa.idade}} anos</p>
+            <p>Sexo: {{pessoa.sexo}} </p>
+        </div>
+    </div>
+    <ng-template #sexoFeminino>
+        <div [ngClass]=contentCard>
+            <p>Nome: {{pessoa.nome}} </p>
+            <p>Idade: {{pessoa.idade}} anos</p>
+            <p>Sexo: {{pessoa.sexo}} </p>
+        </div>
+    </ng-template>
+</div>
