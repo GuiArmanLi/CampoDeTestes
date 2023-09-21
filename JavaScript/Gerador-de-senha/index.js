@@ -38,11 +38,9 @@ function gerarBaseDaSenha() {
 function gerarSenha(baseDaSenha) {
     let tamanhoDaSenha = document.getElementById("tamanhoDaSenha");
     try {
-
         let sorteio = "";
 
         for (i = 0; i < tamanhoDaSenha.value; i++) {
-            console.log(sorteio)
             randomNumber = Math.floor(Math.random() * (baseDaSenha.length));
             sorteio += baseDaSenha[randomNumber];
         }
