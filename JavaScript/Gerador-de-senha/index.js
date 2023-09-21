@@ -1,48 +1,55 @@
 // Bloco de Gerar Senha
-buttonSenha = document.getElementById("buttonSenha");
+btnPassword = document.getElementById("btnPassword");
+newPassword = document.getElementById("newPassword");
+copyPassword = document.getElementById("copy");
 
-buttonSenha.addEventListener("click", () => {
-    let baseDaSenha = gerarBasedaSenha();
-    let senhaFinal = sortear(baseDaSenha);
+contentSenha = document.getElementById("content-senha");
+let copySenha;
 
-    return senhaFinal;
+btnPassword.addEventListener("click", () => {
+    let base = gerarBaseDaSenha();
+    let senhaGerada = gerarSenha(base);
+
+    if (senhaGerada !== "") {
+        contentSenha.style = "display:block";
+        newPassword.innerHTML = senhaGerada;
+        copySenha = senhaGerada;
+    }
 })
 
-function gerarBasedaSenha() {
+copyPassword.addEventListener("click", () => {
+    navigator.clipboard.writeText(copySenha)
+})
+
+function gerarBaseDaSenha() {
     const baseDaSenha = ["abcdefghijklmnopqrstuvwxyz"];
 
-    let checkMaiuscula = document.getElementById("Maiuscula");
-    let checkNumeros = document.getElementById("Numeros");
-    let checkCaractereEspecial = document.getElementById("CaractereEspecial");
+    let checkMaiusc = document.getElementById("maiuscula");
+    let checkNum = document.getElementById("numeros");
+    let checkCharEspec = document.getElementById("charEspec");
 
-    if (checkMaiuscula.checked) { baseDaSenha.push("ABCDEFGHIJKLMNOPQRSTUVWXYZ") }
-    if (checkNumeros.checked) { baseDaSenha.push("0123456789") }
-    if (checkCaractereEspecial.checked) { baseDaSenha.push("!@#$%^&*?") }
+    if (checkMaiusc.checked) { baseDaSenha.push("ABCDEFGHIJKLMNOPQRSTUVWXYZ") }
+    if (checkNum.checked) { baseDaSenha.push("0123456789") }
+    if (checkCharEspec.checked) { baseDaSenha.push("!@#$%^&*?") }
 
-    return baseDaSenha.join("");
+    return base = baseDaSenha.join("");
 }
 
-function sortear(baseDaSenha) {
+function gerarSenha(baseDaSenha) {
     let tamanhoDaSenha = document.getElementById("tamanhoDaSenha");
-    let sorteio = "";
+    try {
 
-    for (i = 0; i < tamanhoDaSenha.value; i++) {
-        randomNumber = Math.floor(Math.random() * (baseDaSenha.length));
-        sorteio += baseDaSenha[randomNumber];
+        let sorteio = "";
+
+        for (i = 0; i < tamanhoDaSenha.value; i++) {
+            console.log(sorteio)
+            randomNumber = Math.floor(Math.random() * (baseDaSenha.length));
+            sorteio += baseDaSenha[randomNumber];
+        }
+        return sorteio;
+    } catch (error) {
+        alert(error);
+    } finally {
+        tamanhoDaSenha.value = "";
     }
-
-    campoDeSenha = document.getElementById("senhaGerada");
-    campoDeSenha.innerHTML = sorteio;
-    campoDeSenha.style = "display:block;"
-
-}
-
-// Calculadora
-let calculadora = document.getElementById("calculadora");
-
-calculadora.onload(gerarCalculadora())
-
-
-function gerarCalculadora(){
-
 }

@@ -1,0 +1,92 @@
+:root {
+    --corPrimaria: #12486B;
+    --corSecundaria: #419197;
+    --corTerciaria: #F5FCCD;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--corPrimaria);
+}
+
+.geradorDeSenha {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    aspect-ratio: 1;
+
+    border: 5px double var(--corSecundaria);
+    border-radius: 25px;
+
+    background-color: var(--corTerciaria);
+    color: var(--corSecundaria);
+}
+
+.content-checks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+
+    margin: 20px 0;
+}
+
+.content-check {
+    width: 50%;
+}
+
+.content-senha {
+    position: absolute;
+    bottom: 5%;
+    display: none;
+
+    width: 90%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+}
+
+svg {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+button,
+input {
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 25px;
+
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+}
