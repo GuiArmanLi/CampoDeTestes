@@ -1,23 +1,22 @@
+let btn = document.getElementById("btn");
+let res = document.getElementById("res");
+
 let pessoas = [];
 
-let nome = document.getElementById("nome");
-let idade = document.getElementById("idade");
-let endereco = document.getElementById("endereco");
+btn.addEventListener("click", () => {
+    let nome = document.getElementById("nome").value;
+    let idade = document.getElementById("idade").value;
+    let endereco = document.getElementById("endereco").value;
 
-nome.addEventListener("onchange", () => {
-    nome.style.backgroundColor = "red";
-    idade.style.backgroundColor = "red";
-    endereco.style.backgroundColor = "red";
-})
+    let pessoa = { nome, idade, endereco }
 
-postPessoa = document.getElementById("botao");
-
-postPessoa.addEventListener("click", (nome, idade, endereco)=>{
-    alert("Ola Ceta");
-    let nome = this.nome.value;
-    let idade = this.idade.value;
-    let endereco = this.endereco.value;
-    
-    pessoa = { nome, idade, endereco }
     pessoas.push(pessoa);
+
+    res.innerHTML = "";
+    "<ul>"
+    for (i = 0; i < pessoas.length; i++) {
+        res.innerHTML += `<li>Nome: ${pessoas[i].nome}, idade: ${pessoas[i].idade}, endereço ${pessoas[i].endereco}</li>`
+    }
+    "</ul>"
+    console.log(pessoas)
 })
