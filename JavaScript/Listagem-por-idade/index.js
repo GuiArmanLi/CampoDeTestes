@@ -1,6 +1,6 @@
-buttonIdade = document.getElementById("buttonIdade");
+btnIdade = document.getElementById("btnIdade");
 
-buttonIdade.addEventListener("click", () => {
+btnIdade.addEventListener("click", () => {
 
     let idade = document.getElementById("idade");
     let response = document.getElementById("response");
