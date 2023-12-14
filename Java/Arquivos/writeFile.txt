@@ -1,0 +1,12 @@
+Escolha um cavalo para apostar
+Cavalo n30
+Cavalo n76
+Cavalo n83
+Cavalo n31
+Cavalo n14
+Cavalo n29
+Cavalo n38
+Cavalo n66
+Cavalo n16
+Cavalo n16
+Same thing, but differentoIsso esta appendando
