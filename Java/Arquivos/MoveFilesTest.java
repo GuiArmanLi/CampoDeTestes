@@ -1,28 +1,42 @@
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
+import java.util.Random;
+import java.util.Scanner;
 
 public class MoveFilesTest {
+    private static final String FILE = "C:\\Users\\Gui\\OneDrive\\Anexos\\Área de Trabalho\\";
+
     public static void main(String[] args) {
-        Path file = Path.of("moveFile.txt");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Deseja criar quantos arquivos aleatórios?");
+        int quantidade = scanner.nextInt();
 
-        System.out.println("=========================================");
+        Random random = new Random();
+        for (int i = 0; i < quantidade; i++) {
+            int numberNameFile = random.nextInt(1, 100);
+            String nameFile = String.valueOf(numberNameFile) + ".txt";
 
-        boolean existFile = Files.exists(file);
-        if (!existFile) {
+            Path file = Path.of(nameFile);
+            if (!Files.exists(file)) {
+                try {
+                    Files.createFile(file);
+                } catch (Exception error) {
+                    error.getMessage();
+                }
+            }
+
             try {
-                Files.createFile(file);
+                String movePath = FILE;
+                String fileName = file.getFileName().toString();
+                String destiny = movePath + fileName;
+                Files.move(file, Path.of(destiny), StandardCopyOption.REPLACE_EXISTING);
+
             } catch (Exception error) {
                 error.getMessage();
             }
         }
 
-        try {
-            String fileName = file.getFileName().toString();
-            Files.move(file, Path.of("C:\\Users\\Gui\\OneDrive\\Anexos\\Área de Trabalho\\" + fileName));
-
-        } catch (Exception error) {
-            error.getMessage();
-        }
-        System.out.println("=========================================");
+        scanner.close();
     }
 }
