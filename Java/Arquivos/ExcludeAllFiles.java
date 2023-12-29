@@ -6,10 +6,10 @@ public class ExcludeAllFiles {
 
     public static void main(String[] args) {
         //String userHome = System.getProperty("user.home");
-        final String FILE = userHome;
+        //final String FILE = userHome;
 
         try {
-            Path dir = Path.of(FILE);
+            Path dir = Path.of("C:\\Users\\Gui\\OneDrive\\Anexos\\Área de Trabalho\\Gabriel_PenDive - Copy");
 
             var files = Files.walk(dir);
 
