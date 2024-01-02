@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/edite.css" />
+
+    <title>Manga</title>
+  </head>
+  <body>
+    <section class="flex-child list-manga">
+      <form
+        action="/mangas"
+        method="post"
+        class="row g-3 needs-validation"
+        th:each="i : ${manga}"
+      >
+        <input
+          type="text"
+          name="id"
+          th:value="${i.id}"
+          hidden
+        />
+        <label for="name" class="form-label">Name</label>
+        <div class="input-group has-validation">
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            th:value="${i.name}"
+            required
+          />
+        </div>
+
+        <label for="describe" class="form-label">Describe</label>
+        <div class="input-group has-validation">
+          <input
+            type="text"
+            name="describe"
+            class="form-control"
+            th:value="${i.describe}"
+            required
+          />
+        </div>
+
+        <label for="image" class="form-label">Image</label>
+        <div class="input-group has-validation">
+          <input
+            type="text"
+            name="image"
+            class="form-control"
+            th:value="${i.image}"
+            required
+          />
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Update</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
