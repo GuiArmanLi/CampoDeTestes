@@ -1,13 +1,13 @@
-package com.example.email;
+package com.example.Whatsapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmailApplication {
+public class WhatsappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmailApplication.class, args);
+		SpringApplication.run(WhatsappApplication.class, args);
 	}
 
 }

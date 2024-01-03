@@ -1,6 +1,5 @@
 package com.example.thymeleaf.mangas;
 
-import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;

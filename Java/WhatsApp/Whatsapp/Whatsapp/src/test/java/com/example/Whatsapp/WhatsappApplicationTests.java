@@ -1,10 +1,10 @@
-package com.example.email;
+package com.example.Whatsapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmailApplicationTests {
+class WhatsappApplicationTests {
 
 	@Test
 	void contextLoads() {
