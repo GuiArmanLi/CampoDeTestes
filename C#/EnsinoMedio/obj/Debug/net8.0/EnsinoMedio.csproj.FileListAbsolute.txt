@@ -1,0 +1,5 @@
+C:\Users\Gui\Documents\1 - Estudos\Programação\CampoDeTestes\C#\EnsinoMedio\obj\Debug\net8.0\EnsinoMedio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gui\Documents\1 - Estudos\Programação\CampoDeTestes\C#\EnsinoMedio\obj\Debug\net8.0\EnsinoMedio.AssemblyInfoInputs.cache
+C:\Users\Gui\Documents\1 - Estudos\Programação\CampoDeTestes\C#\EnsinoMedio\obj\Debug\net8.0\EnsinoMedio.AssemblyInfo.cs
+C:\Users\Gui\Documents\1 - Estudos\Programação\CampoDeTestes\C#\EnsinoMedio\obj\Debug\net8.0\EnsinoMedio.csproj.CoreCompileInputs.cache
+C:\Users\Gui\Documents\1 - Estudos\Programação\CampoDeTestes\C#\EnsinoMedio\obj\Debug\net8.0\EnsinoMedio.sourcelink.json
