@@ -1,7 +1,5 @@
 import java.util.UUID;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
-
 public class Employee {
     private UUID id;
     private String name;
