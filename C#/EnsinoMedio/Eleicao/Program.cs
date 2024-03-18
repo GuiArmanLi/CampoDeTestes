@@ -1,62 +1,63 @@
-﻿String Gerlania, Dolores, Gertrudes, Abgail, Situacao;
-double Tpessoas = 0, Votos = 0, Gerl = 0, Do = 0, Gert = 0, Abg = 0, GerlP = 0, DoP = 0, GertP = 0, AbgP = 0, nulos = 0;
+﻿using System;
 
-//////////////////////////////////////////////////////////
+class Program
+{
+    static void Main(string[] args)
+    {
+        String Gerlania, Dolores, Gertrudes, Abgail, Situacao;
+        double Tpessoas = 0, Votos = 0, Gerl = 0, Do = 0, Gert = 0, Abg = 0, GerlP = 0, DoP = 0, GertP = 0, AbgP = 0, nulos = 0;
 
-Console.WriteLine("Elei��o de 2019" + "\n" + "Participantes: " + "\n" + "Gerlania \nDolores \nGertrudes \nAbgail");
-Console.ReadKey();
-Console.Clear();
+        Console.WriteLine("Eleicao de 2019!");
+        Console.WriteLine("Participantes: " + "\n" + "Gerlania \nDolores \nGertrudes \nAbgail");
+        Console.ReadKey();
+        Console.Clear();
 
-//////////////////////////////////////////////////////////
 
-Console.WriteLine("Digite o n�mero total de participantes");
-Tpessoas = Double.Parse(Console.ReadLine());
-Console.Clear();
+        Console.WriteLine("Digite o numero total de participantes");
+        Tpessoas = Double.Parse(Console.ReadLine());
+        Console.Clear();
 
-//////////////////////////////////////////////////////////
-Console.WriteLine("Digite o n�mero de votos de Gerlania");
-Gerl = Double.Parse(Console.ReadLine());
-Console.Clear();
-//////////////////////////////////////////////////////////
-Console.WriteLine("Digite o n�mero de votos de Dolores");
-Do = Double.Parse(Console.ReadLine());
-Console.Clear();
-//////////////////////////////////////////////////////////
-Console.WriteLine("Digite o n�mero de votos de Gertudes");
-Gert = Double.Parse(Console.ReadLine());
-Console.Clear();
-//////////////////////////////////////////////////////////
-Console.WriteLine("Digite o n�mero de votos de Abgail");
-Abg = Double.Parse(Console.ReadLine());
-Console.Clear();
+        Console.WriteLine("Digite o numero de votos de Gerlania");
+        Gerl = Double.Parse(Console.ReadLine());
+        Console.Clear();
 
-//////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////
-nulos = Tpessoas - (Gerl + Do + Gert + Abg);
+        Console.WriteLine("Digite o numero de votos de Dolores");
+        Do = Double.Parse(Console.ReadLine());
+        Console.Clear();
 
-GerlP = Gerl * 100 / Tpessoas;
+        Console.WriteLine("Digite o numero de votos de Gertudes");
+        Gert = Double.Parse(Console.ReadLine());
+        Console.Clear();
 
-DoP = Do * 100 / Tpessoas;
+        Console.WriteLine("Digite o numero de votos de Abgail");
+        Abg = Double.Parse(Console.ReadLine());
+        Console.Clear();
 
-GertP = Gert * 100 / Tpessoas;
+        nulos = Tpessoas - (Gerl + Do + Gert + Abg);
 
-AbgP = Abg * 100 / Tpessoas;
-///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
-if (Gerl > Do || Gerl > Gert || Gerl > Abg)
-    Situacao = "Gerlania ganhou a elei��o com " + GerlP + "% dos votos";
+        GerlP = Gerl * 100 / Tpessoas;
 
-else if (Do > Gerl || Do > Gert || Do > Abg)
-    Situacao = "Dolores ganhou a elei��o com " + DoP + "% dos votos";
+        DoP = Do * 100 / Tpessoas;
 
-else if (Gert > Gerl || Gert > Do || Gert > Abg)
-    Situacao = "Gertudes ganhou a elei��o com " + GertP + "% dos votos";
+        GertP = Gert * 100 / Tpessoas;
 
-else if (Abg > Gerl || Abg > Do || Abg > Gert)
-    Situacao = "Abigail ganhou a elei��o com " + AbgP + "% dos votos";
+        AbgP = Abg * 100 / Tpessoas;
+        if (Gerl > Do || Gerl > Gert || Gerl > Abg)
+            Situacao = "Gerlania ganhou a eleicao com " + GerlP + "% dos votos";
 
-else
-    Situacao = "Houve corrup��o nessa vota��o !!!";
+        else if (Do > Gerl || Do > Gert || Do > Abg)
+            Situacao = "Dolores ganhou a eleicao com " + DoP + "% dos votos";
 
-Console.WriteLine(Situacao + "\nN�mero votos de nulos " + nulos);
-Console.ReadKey();
+        else if (Gert > Gerl || Gert > Do || Gert > Abg)
+            Situacao = "Gertudes ganhou a eleicao com " + GertP + "% dos votos";
+
+        else if (Abg > Gerl || Abg > Do || Abg > Gert)
+            Situacao = "Abigail ganhou a eleicao com " + AbgP + "% dos votos";
+
+        else
+            Situacao = "Houve corrupcao nessa votacao !!!";
+
+        Console.WriteLine(Situacao + "\nNumero votos de nulos " + nulos);
+        Console.ReadKey();
+    }
+}

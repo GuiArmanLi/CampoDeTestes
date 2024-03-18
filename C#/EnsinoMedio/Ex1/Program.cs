@@ -1,6 +1,16 @@
-﻿int i = 0;
-Console.WriteLine("Os numeros sao:");
-for (i = 1; i <= 100; i++)
+﻿using System;
+using System.Threading;
+
+class Program
 {
-    Console.Write(i + " ");
+    static void Main(string[] args)
+    {
+        int i = 0;
+        Console.WriteLine("Os numeros sao:");
+        for (i = 1; i <= 100; i++)
+        {
+            Console.Write(i + " ");
+            Thread.Sleep(100);
+        }
+    }
 }
