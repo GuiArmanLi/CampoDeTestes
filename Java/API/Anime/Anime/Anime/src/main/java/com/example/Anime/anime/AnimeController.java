@@ -1,17 +1,16 @@
 package com.example.Anime.anime;
 
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
-import java.util.UUID;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import java.util.List;
 
 @RestController
 @RequestMapping("/anime")
@@ -24,11 +23,10 @@ class AnimeController {
         return service.findAll();
     }
 
-    // @GetMapping("{title}")
-    // public ResponseEntity<AnimeModel> findById(@PathVariable String title) {
-    // return
-    // ResponseEntity.status(HttpStatus.ACCEPTED).body(service.findByTitle(title));
-    // }
+    @GetMapping("/{title}")
+    public ResponseEntity<AnimeModel> findById(@PathVariable String title) {
+        return service.findByTitle(title);
+    }
 
     @PostMapping
     public ResponseEntity<AnimeModel> save(@RequestBody AnimeModel newAnime) {
@@ -41,8 +39,8 @@ class AnimeController {
     // return service.upDate(updatedAnime);
     // }
 
-    @DeleteMapping
-    public ResponseEntity<AnimeModel> delete(UUID id) {
-        return service.delete(id);
+    @DeleteMapping("/{title}")
+    public ResponseEntity<AnimeModel> delete(@PathVariable String title) {
+        return service.delete(title);
     }
 }
