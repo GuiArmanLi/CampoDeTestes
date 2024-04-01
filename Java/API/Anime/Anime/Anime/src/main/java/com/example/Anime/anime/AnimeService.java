@@ -1,5 +1,6 @@
 package com.example.Anime.anime;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -40,9 +41,19 @@ public class AnimeService {
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(newAnime);
     }
 
-    // public String upDate(AnimeModel updatedAnime) {
-    // return db.save(updatedAnime);
-    // }
+    public ResponseEntity<AnimeModel> upDate(String title, AnimeModel updatedAnime) {
+        var animeFound = database.findByTitle(title);
+
+        // Copiar propriedades, verificar quais sao iguais e atribuir ao anime guardado
+        if (animeFound.isPresent()) {
+            BeanUtils.copyProperties(animeFound.get(), updatedAnime);
+
+            // Mudar retorno
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body(null);
+        }
+
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
+    }
 
     public ResponseEntity<AnimeModel> delete(String title) {
         var animeFound = database.findByTitle(title);

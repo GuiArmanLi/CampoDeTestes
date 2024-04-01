@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,11 +34,10 @@ class AnimeController {
         return service.save(newAnime);
     }
 
-    // @PutMapping()
-    // public ResponseEntity<AnimeModel> upDate(@PathVariable UUID id, @RequestBody
-    // AnimeModel updatedAnime) {
-    // return service.upDate(updatedAnime);
-    // }
+    @PutMapping("/title")
+    public ResponseEntity<AnimeModel> upDate(@PathVariable String title, @RequestBody AnimeModel updatedAnime) {
+        return service.upDate(title, updatedAnime);
+    }
 
     @DeleteMapping("/{title}")
     public ResponseEntity<AnimeModel> delete(@PathVariable String title) {
