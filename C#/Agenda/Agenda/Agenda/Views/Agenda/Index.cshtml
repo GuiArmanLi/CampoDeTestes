@@ -1,0 +1,18 @@
+﻿@model List<ContatoModel>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <h1>Lista de Contatos</h1>
+    
+    <ul>
+        @foreach (var contato in Model)
+        {
+            <li>@contato.Name - @contato.Telefone</li>
+        }
+    </ul>
+</body>
+</html>
