@@ -1,0 +1,15 @@
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\bin\Debug\net8.0\Out.exe
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\bin\Debug\net8.0\Out.deps.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\bin\Debug\net8.0\Out.runtimeconfig.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\bin\Debug\net8.0\Out.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\bin\Debug\net8.0\Out.pdb
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.AssemblyInfoInputs.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.AssemblyInfo.cs
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.csproj.CoreCompileInputs.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.sourcelink.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\refint\Out.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.pdb
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\Out.genruntimeconfig.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\Out\obj\Debug\net8.0\ref\Out.dll
