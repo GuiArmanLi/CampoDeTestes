@@ -28,3 +28,34 @@ C:\Users\Gui\OneDrive\Anexos\Área de Trabalho\WebDemo\WebDemo\WebDemo\obj\Debug
 C:\Users\Gui\OneDrive\Anexos\Área de Trabalho\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.pdb
 C:\Users\Gui\OneDrive\Anexos\Área de Trabalho\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.genruntimeconfig.cache
 C:\Users\Gui\OneDrive\Anexos\Área de Trabalho\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\ref\WebDemo.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\appsettings.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\WebDemo.staticwebassets.runtime.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\WebDemo.exe
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\WebDemo.deps.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\WebDemo.runtimeconfig.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\WebDemo.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\bin\Debug\net8.0\WebDemo.pdb
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.AssemblyInfoInputs.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.AssemblyInfo.cs
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.csproj.CoreCompileInputs.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.RazorAssemblyInfo.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.RazorAssemblyInfo.cs
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.sourcelink.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets\msbuild.WebDemo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets\msbuild.build.WebDemo.props
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebDemo.props
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebDemo.props
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\scopedcss\bundle\WebDemo.styles.css
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\scopedcss\projectbundle\WebDemo.bundle.scp.css
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\refint\WebDemo.dll
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.pdb
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\WebDemo.genruntimeconfig.cache
+C:\Users\Gui\Documents\1_Estudos\Programação\CampoDeTestes\C#\WebDemo\WebDemo\WebDemo\obj\Debug\net8.0\ref\WebDemo.dll

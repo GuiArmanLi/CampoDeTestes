@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gui\\OneDrive\\Anexos\\Área de Trabalho\\WebDemo\\WebDemo\\WebDemo\\WebDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Gui\\Documents\\1_Estudos\\Programação\\CampoDeTestes\\C#\\WebDemo\\WebDemo\\WebDemo\\WebDemo.csproj",
       "projectName": "WebDemo",
-      "projectPath": "C:\\Users\\Gui\\OneDrive\\Anexos\\Área de Trabalho\\WebDemo\\WebDemo\\WebDemo\\WebDemo.csproj",
+      "projectPath": "C:\\Users\\Gui\\Documents\\1_Estudos\\Programação\\CampoDeTestes\\C#\\WebDemo\\WebDemo\\WebDemo\\WebDemo.csproj",
       "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gui\\OneDrive\\Anexos\\Área de Trabalho\\WebDemo\\WebDemo\\WebDemo\\obj\\",
+      "outputPath": "C:\\Users\\Gui\\Documents\\1_Estudos\\Programação\\CampoDeTestes\\C#\\WebDemo\\WebDemo\\WebDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",

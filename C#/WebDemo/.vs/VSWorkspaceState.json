@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebDemo",
-    "\\WebDemo\\WebDemo",
-    "\\WebDemo\\WebDemo\\Controllers",
-    "\\WebDemo\\WebDemo\\Models",
-    "\\WebDemo\\WebDemo\\Properties",
-    "\\WebDemo\\WebDemo\\Views",
-    "\\WebDemo\\WebDemo\\Views\\Shared",
-    "\\WebDemo\\WebDemo\\wwwroot"
+    "\\DemoMVC",
+    "\\DemoMVC\\DemoMVC",
+    "\\DemoMVC\\DemoMVC\\Repositories",
+    "\\DemoMVC\\DemoMVC\\Services",
+    "\\DemoMVC\\DemoMVC\\Views",
+    "\\DemoMVC\\DemoMVC\\Views\\Contato",
+    "\\DemoMVC\\DemoMVC\\Views\\Home",
+    "\\DemoMVC\\DemoMVC\\Views\\Produto",
+    "\\DemoMVC\\DemoMVC\\Views\\Shared"
   ],
+  "SelectedNode": "\\DemoMVC\\DemoMVC.sln",
   "PreviewInSolutionExplorer": false
 }
